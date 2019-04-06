@@ -137,4 +137,34 @@
 
 
 
+.navigation{
+    position: fixed;
+    margin-left: 60px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    pointer-events: none;
+    z-index: 20;
+}
+
+.navigation_line{
+    height: 100%;
+    width: 2px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 4px #0ff;
+    position: relative;
+
+}
+
+.navigation_line__selector{
+    transition: top 0.5s ease;
+    position: absolute;
+    top: -75px;
+    left: -25px;
+}
+}
+
+
+
 
