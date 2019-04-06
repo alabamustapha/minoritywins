@@ -1,0 +1,140 @@
+.section-one{
+    background-image: url("../images/bg-one.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media only screen and (min-width: 1300px) {
+    
+    .section-one{
+        background-image: url("../images/bg-one.jpg");
+        min-height: 110vh;
+    }
+    
+    .play-btn img{
+        width: 342px;
+        height: 204px;
+    }
+
+
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .section-one{
+        background-image: url("../images/bg-one-small.jpg");
+        min-height: 430px;
+    }
+    
+    .play-btn {
+        top: 40%;
+    }
+    
+    .play-btn img{
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    
+    .section-one{
+        background-image: url("../images/bg-one-smallest.jpg");
+        min-height: 230px;
+    }
+    
+    .play-btn img{
+        width: 100px;
+    }
+    
+}
+
+.play-btn {
+    transition: background-image 0.2s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .section-one{
+        background-image: url("../images/bg-one-smallest.jpg");
+        min-height: 230px;
+    }
+    
+    .play-btn img{
+        width: 100px;
+    }
+    
+}
+
+
+.section-two{
+/*    background-color: aliceblue;*/
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+#bg-video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.play-btn-2{
+    z-index: 10;
+}
+
+@media only screen and (max-width: 690px) {
+    
+   
+    
+}
+
+
+
+.section-three{
+    background-image: url("../images/smoke-bg.png");
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+
+.image-grid-row img{
+    width: 100%;
+}
+
+.features{
+    color: #fff;
+}
+
+.features-title{
+    color: #02ffff;
+}
+
+
+
+.footer{
+    background-image: url("../images/footer-bg.png");
+    background-position: top;
+    min-height: 80px;
+    margin-top: -10px;
+}
+
+.social-media-icon{
+    margin-right: 0px;
+    padding: 0;
+}
+
+
+
+
