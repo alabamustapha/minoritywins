@@ -154,7 +154,7 @@
     background-color: #ffffff;
     box-shadow: 0px 0px 20px 4px #0ff;
     position: relative;
-
+    float: left;
 }
 
 .navigation_line__selector{
@@ -163,6 +163,19 @@
     top: -75px;
     left: -25px;
 }
+
+.side-nav{
+/*    padding-top: 157px;*/
+    margin-left: 36px;
+    height: 100vh;
+}
+
+.side-nav li{
+    margin-top: 80px;
+}
+
+.side-nav li:nth-child(1){
+    margin-top: 200px;
 }
 
 
