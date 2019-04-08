@@ -202,3 +202,15 @@
     color: #fff;
 }
 
+
+@media only screen and (max-height: 450px) {
+    
+    .side-nav li{
+    /*    margin-bottom: 40px;*/
+        height: 3rem;
+        margin-top: 2rem;
+        color: red;
+    }
+
+
+}
