@@ -165,12 +165,10 @@
 }
 
 .side-menu{
-
-/*    position: relative;*/
     height: 100%;
 }
 .side-nav{
-    display: inline-block;
+/*    display: inline-block;*/
     margin-left: 36px;
 /*    position: absolute;*/
 /*    top: 30%;*/
@@ -179,7 +177,11 @@
 }
 
 .side-nav li{
-/*    margin-top: 50%;*/
+/*    margin-bottom: 40px;*/
+    text-align: left;
+    display: inline-block;
+    height: 5rem;
+    margin-top: 2.5rem;
 }
 
 .side-nav li:nth-child(1){
@@ -187,5 +189,16 @@
 }
 
 
+#main-nav{
+    background-color: #0d0c0b !important;
+    text-align: center
+}
 
+#main-nav .navbar-nav {
+    width: 100%;
+}
+
+#main-nav .nav-link{
+    color: #fff;
+}
 
