@@ -49,6 +49,17 @@
         width: 100px;
     }
     
+    .play-btn-2 > img{
+        max-width: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    
+    .play-btn-2 > img{
+        max-width: 100px;
+    }
 }
 
 .play-btn {
@@ -69,7 +80,10 @@
         width: 100px;
     }
     
+    
+    
 }
+
 
 
 .section-two{
@@ -89,14 +103,9 @@
 
 .play-btn-2{
       position: absolute;
-      
       z-index: 10;
-}
-
-@media only screen and (max-width: 690px) {
-    
-   
-    
+    max-width: 300px;
+    max-height: 300px;
 }
 
 
@@ -182,6 +191,7 @@
     display: inline-block;
     height: 5rem;
     margin-top: 2.5rem;
+    
 }
 
 .side-nav li:nth-child(1){
@@ -202,6 +212,17 @@
     color: #fff;
 }
 
+.side-menu a{
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.side-menu a.active{
+    color: #20edff;
+    margin-left: 5rem;
+}
+
 
 @media only screen and (max-height: 450px) {
     
@@ -211,6 +232,6 @@
         margin-top: 2rem;
         color: red;
     }
-
-
+    
+   
 }
