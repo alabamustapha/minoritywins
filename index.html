@@ -192,7 +192,9 @@
                 
                 $(".group").each(function(){
                     if($(this).isInViewport()){
-//                        alert($(this).attr('id'));
+                        $(".side-nav .nav-item").removeClass('active');
+                        $("a[href='#" + $(this).attr('id') + "']").parent("li").addClass("active");
+                        
                     }               
                 });
                 
