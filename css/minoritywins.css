@@ -44,12 +44,8 @@
         min-height: 430px;
     }
     
-    .play-btn {
-        top: 40%;
-    }
-    
     .play-btn img{
-        width: 150px;
+        width: 300px;
     }
 
 }
@@ -62,11 +58,11 @@
     }
     
     .play-btn img{
-        width: 100px;
+        width: 200px;
     }
     
     .play-btn-2 > img{
-        max-width: 100px;
+        max-width: 200px;
     }
 }
 
@@ -74,7 +70,7 @@
 @media only screen and (max-width: 620px) {
     
     .play-btn-2 > img{
-        max-width: 100px;
+        max-width: 200px;
     }
 }
 
@@ -93,7 +89,7 @@
     }
     
     .play-btn img{
-        width: 100px;
+        width: 200px;
     }
 }
 
@@ -114,6 +110,7 @@
   height: 100%;
 }
 
+.play-btn,
 .play-btn-2{
     position: absolute;
     z-index: 10;
