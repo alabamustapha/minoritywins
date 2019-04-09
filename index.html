@@ -17,20 +17,13 @@
   <body>
       
     <div class="app">
-<!--
-            <div class="container" id="main-nav">
-                <div class="d-flex bd-highlight">
-                  <div class="flex-fill bd-highlight">Rules</div>
-                  <div class="flex-fill bd-highlight">News</div>
-                  <div class="flex-fill bd-highlight">Faq</div>
-                </div>
-            </div>
--->
-            <nav class="navbar navbar-expand-sm " id="main-nav">
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fas fa-bars text-white"></span>
-                  </button>
         
+        <!--top navigation -->
+        <nav class="navbar navbar-expand-sm " id="main-nav">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars text-white"></span>
+              </button>
+
               <div class="container">
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav d-flex bd-highlight">
@@ -45,25 +38,14 @@
                       </li>
                     </ul>
                 </div>
-                  
-              </div>
-                
-                
-         </nav>
-        
-        <div class="section-one d-flex justify-content-center group" id="play">
-            <div class="play-btn">
-                <img src="images/btn_play_game_00_normal.png" alt="Play">
-            </div>
-        </div>
-        
-        <div class="navigation ">
-            <div class="navigation_line">
-<!--                <img src="images/navigation-arrow.png" class="navigation_line__selector" style="top: 7.9rem;">-->
-            </div> 
-            
+              </div>                
+        </nav>
+        <!--/top navigation -->
+
+        <div class="navigation">
+            <div class="navigation_line"></div> 
             <div class="side-menu  d-flex">
-                <ul class="nav side-nav flex-column align-self-center" style="z-index: 30">
+                <ul class="nav side-nav flex-column align-self-center">
                   <li class="nav-item">
                     <a class="nav-link" href="#play">play</a>
                   </li>
@@ -77,9 +59,15 @@
                     <a class="nav-link" href="#advantages">advantages</a>
                   </li>
                 </ul>
-            </div>
-            
+            </div>    
         </div>
+        
+        <div class="play d-flex justify-content-center group" id="play">
+            <div class="play-btn">
+                <img src="images/btn_play_game_00_normal.png" alt="Play">
+            </div>
+        </div>
+        
 
         <div class="section-two d-flex justify-content-center group" id="video">
             <video loop="loop" autoplay muted id="bg-video">
