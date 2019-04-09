@@ -79,7 +79,7 @@
 }
 
 .play-btn {
-    transition: background-image 0.2s ease;
+
     cursor: pointer;
     position: absolute;
     top: 60%;
@@ -252,4 +252,34 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.fixed-menu{
+    z-index: 40;
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fixed-menu-btn{
+    display: inline-block;
+}
+
+#fixedMenu{
+    max-width: 300px;
+}
+
+#fixedMenu li.list-group-item{
+    background: #0d0c0b;
+    padding: 10px 20px;
+    border-top: 1px solid #fff;
+}
+
+#fixedMenu li.list-group-item:nth-child(1){
+    border-top: none;
+}
+
+
+#fixedMenu li.list-group-item a{
+    color: #fff;
+    padding: 0;
 }

@@ -27,7 +27,7 @@
     <div class="app">
         
         <!--top navigation -->
-        <nav class="navbar navbar-expand-sm " id="main-nav">
+        <nav class="navbar navbar-expand-sm hide-sm" id="main-nav">
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fas fa-bars text-white"></span>
               </button>
@@ -48,6 +48,40 @@
                 </div>
               </div>                
         </nav>
+        
+        
+        <div class="fixed-menu">
+
+          <button class="btn btn-dark fixed-menu-btn" type="button" data-toggle="collapse" data-target="#fixedMenu" aria-expanded="false" aria-controls="fixedMenu">
+            <span class="fas fa-bars text-white"></span>
+          </button>
+
+            <div class="collapse" id="fixedMenu">
+              <ul class="list-group">
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#">Rules <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#">Faq</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#play">play</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#video">video</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#screenshots">screenshots</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" href="#advantages">advantages</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
         <!--/top navigation -->
 
         <div class="navigation">
@@ -70,9 +104,9 @@
             </div>    
         </div>
         
-        <div class="play d-flex justify-content-center group parallax-scroll" id="play">
+        <div class="play d-flex justify-content-center align-self-center group parallax-scroll" id="play">
             <div class="play-btn">
-                <img src="images/btn_play_game_00_normal.png" alt="Play">
+                <img src="images/btn_play_game_00_normal.png" alt="Play" class="text-center">
             </div>
         </div>
         
@@ -213,6 +247,9 @@
                 $(".side-nav .nav-item").removeClass('active');
                 $(this).addClass('active');
             });
+            
+            
+//            alert($(".navbar-toggler").is(":visible"));
         })
     
     </script>
