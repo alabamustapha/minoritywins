@@ -27,7 +27,7 @@
     <div class="app">
         
         <!--top navigation -->
-        <nav class="navbar navbar-expand-sm hide-sm" id="main-nav">
+        <nav class="navbar navbar-expand-sm d-none d-sm-none d-md-block" id="main-nav">
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fas fa-bars text-white"></span>
               </button>
@@ -50,7 +50,7 @@
         </nav>
         
         
-        <div class="fixed-menu">
+        <div class="fixed-menu d-block d-md-none">
 
           <button class="btn btn-dark fixed-menu-btn" type="button" data-toggle="collapse" data-target="#fixedMenu" aria-expanded="false" aria-controls="fixedMenu">
             <span class="fas fa-bars text-white"></span>
@@ -231,6 +231,7 @@
             $(window).on('resize scroll', function() {
                 
                 
+               
                 $(".group").each(function(){
                     if($(this).isInViewport()){
                         $(".side-nav .nav-item").removeClass('active');
@@ -239,8 +240,7 @@
                     }               
                 });
                 
-                
-
+              
             });
             
             $(".side-nav .nav-item").click(function(){
@@ -249,7 +249,7 @@
             });
             
             
-//            alert($(".navbar-toggler").is(":visible"));
+           
         })
     
     </script>
