@@ -175,6 +175,7 @@
 
 .side-menu{
     height: 100%;
+    
 }
 .side-nav{
 /*    display: inline-block;*/
@@ -182,7 +183,7 @@
 /*    position: absolute;*/
 /*    top: 30%;*/
 /*    height: 80%;*/
-
+    z-index: 30;
 }
 
 .side-nav li{
@@ -193,6 +194,8 @@
     margin-top: 2.5rem;
     
 }
+
+
 
 .side-nav li:nth-child(1){
 /*    margin-top: 89%;*/
@@ -218,7 +221,13 @@
     text-transform: uppercase;
 }
 
+.side-menu a:hover{
+    color: red;
+    margin-left: 1000px;
+}
+
 .side-menu li.active a{
+/*    transition: padding 0.5s ease, color 0.5s ease;*/
     color: #20edff;
     margin-left: 5rem;
 }

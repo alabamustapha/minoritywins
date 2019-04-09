@@ -51,7 +51,7 @@
                 
          </nav>
         
-        <div class="section-one d-flex justify-content-center">
+        <div class="section-one d-flex justify-content-center group" id="play">
             <div class="play-btn">
                 <img src="images/btn_play_game_00_normal.png" alt="Play">
             </div>
@@ -62,10 +62,10 @@
 <!--                <img src="images/navigation-arrow.png" class="navigation_line__selector" style="top: 7.9rem;">-->
             </div> 
             
-            <div class="side-menu  d-flex ">
-                <ul class="nav side-nav flex-column align-self-center" style="z-index: 3000">
-                  <li class="nav-item ">
-                    <a class="nav-link " href="#play">play</a>
+            <div class="side-menu  d-flex">
+                <ul class="nav side-nav flex-column align-self-center" style="z-index: 30">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#play">play</a>
                   </li>
                   <li class="nav-item active">
                     <a class="nav-link" href="#video">video</a>
@@ -81,7 +81,7 @@
             
         </div>
 
-        <div class="section-two d-flex justify-content-center">
+        <div class="section-two d-flex justify-content-center group" id="video">
             <video loop="loop" autoplay muted id="bg-video">
                 <source src="videos/video.mp4" type="video/mp4">
             </video>
@@ -90,7 +90,7 @@
             </div>
         </div>
 
-        <div class="section-three d-flex justify-content-center">
+        <div class="section-three d-flex justify-content-center group" id="screenshots">
 
             <div class="container">
 
@@ -111,7 +111,7 @@
 
 
 
-                  <div class="row  justify-content-center text-center mt-5 mb-5">
+                  <div class="row  justify-content-center text-center mt-5 mb-5 group" id="advantages">
                     <div class="col-sm-6 col-md-4 features">
                         <img class="img-fluid  features-icon" src="images/mic-icon.png" alt="">
                         <h5 class="features-title">BIG WINNINGS</h5>
@@ -184,5 +184,35 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      
+    <script>
+    
+        $(document).ready(function(){
+              
+            $.fn.isInViewport = function() {
+              var elementTop = $(this).offset().top;
+              var elementBottom = elementTop + $(this).outerHeight();
+
+              var viewportTop = $(window).scrollTop();
+              var viewportBottom = viewportTop + $(window).height();
+
+              return elementBottom > viewportTop && elementTop < viewportBottom;
+            };
+
+            $(window).on('resize scroll', function() {
+                
+                
+                $(".group").each(function(){
+                    if($(this).isInViewport()){
+//                        alert($(this).attr('id'));
+                    }               
+                });
+                
+                
+
+            });
+        })
+    
+    </script>
   </body>
 </html>
