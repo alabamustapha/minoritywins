@@ -218,7 +218,7 @@
     text-transform: uppercase;
 }
 
-.side-menu a.active{
+.side-menu li.active a{
     color: #20edff;
     margin-left: 5rem;
 }
@@ -235,3 +235,13 @@
     
    
 }
+
+
+ .side-nav li.active::before{
+        content: url("../images/navigation-arrow.png");
+        display: inline-block;
+        position: absolute;
+        left: -25px;
+        margin-top: -60px;
+        color: red;
+    }
