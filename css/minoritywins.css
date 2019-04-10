@@ -254,7 +254,11 @@
 }
 
 #fixedMenu{
+    min-width: 170px;
     max-width: 300px;
+
+    max-height: 80vh;
+    overflow-y: scroll;
 }
 
 #fixedMenu li.list-group-item{
