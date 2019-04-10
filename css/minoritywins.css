@@ -258,7 +258,7 @@
     max-width: 300px;
 
     max-height: 80vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #fixedMenu li.list-group-item{
