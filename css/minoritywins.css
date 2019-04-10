@@ -231,18 +231,10 @@
 
 /* Parallax Scrolling effect */
 .parallax-scroll {
-  /*background-image: url("../images/bg-one.jpg");*/
-
-  height: 100vh; 
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../images/bg-one.jpg");
 }
+.parallax-scroll,
 .parallax-scroll-2 {
-  background-image: url("../images/smoke-bg.png");
-
   min-height: 100vh; 
 
   background-attachment: fixed;
