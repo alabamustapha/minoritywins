@@ -20,6 +20,7 @@
     background-position: top;
     background-size: cover;
     position: relative;
+    width: 100%;
 }
 
 
@@ -88,6 +89,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .play-btn {
+    width: 100%;
     cursor: pointer;
     position: absolute;
     top: 60%;
@@ -125,10 +127,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .play-btn,
 .play-btn-2{
-    /* position: absolute;
-    z-index: 10;
-    max-width: 300px;
-    max-height: 300px; */
+    position: absolute;
+    z-index: 50;
+    text-align: center;
+  
 }
 
 
