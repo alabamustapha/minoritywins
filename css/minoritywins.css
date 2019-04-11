@@ -15,7 +15,7 @@
 
 /* play section */
 .play{
-    background-image: url("../images/bg-one.jpg");
+    /* background-image: url("../images/bg-one.jpg"); */
     min-height: 100vh;
     background-position: top;
     background-size: cover;
@@ -28,7 +28,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .play{
-        background-image: url("../images/bg-one-small.jpg");
+        /* background-image: url("../images/bg-one-small.jpg"); */
         min-height: 430px;
         background-position: center;
         background-size: cover;
@@ -38,7 +38,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (min-width: 1300px) {
     
     .play{
-        background-image: url("../images/bg-one.jpg");
+        /* background-image: url("../images/bg-one.jpg"); */
         min-height: 110vh;
     }
     
@@ -53,7 +53,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 850px) {
     
     .play{
-        background-image: url("../images/bg-one-small.jpg");
+        /* background-image: url("../images/bg-one-small.jpg"); */
         min-height: 430px;
     }
     
@@ -66,7 +66,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 450px) {
     
     .play{
-        background-image: url("../images/bg-one-smallest.jpg");
+        /* background-image: url("../images/bg-one-smallest.jpg"); */
         min-height: 230px;
     }
     
@@ -97,7 +97,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 400px) {
     
     .play{
-        background-image: url("../images/bg-one-smallest.jpg");
+        /* background-image: url("../images/bg-one-smallest.jpg"); */
         min-height: 230px;
     }
     
