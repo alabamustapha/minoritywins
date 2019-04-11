@@ -126,3 +126,91 @@
     margin-top: -60px;
     color: red;
 }
+
+
+
+
+/* Parallax Scrolling effect */
+.parallax-scroll {
+    background-image: url("../images/bg-one.jpg");
+  }
+  .parallax-scroll,
+  .parallax-scroll-2 {
+    min-height: 100vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .fixed-menu{
+      z-index: 40;
+      position: fixed;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .fixed-menu-btn{
+      display: inline-block;
+  }
+  
+  #fixedMenu{
+      min-width: 170px;
+      max-width: 300px;
+  
+      max-height: 80vh;
+      overflow-y: auto;
+  }
+  
+  #fixedMenu li.list-group-item{
+      background: #0d0c0b;
+      padding: 10px 20px;
+      border-top: 1px solid #fff;
+  }
+  
+  #fixedMenu li.list-group-item:nth-child(1){
+      border-top: none;
+  }
+  
+  
+  #fixedMenu li.list-group-item a{
+      color: #fff;
+      padding: 0;
+  }
+
+
+
+
+  .section-three{
+    background-image: url("../images/smoke-bg.png");
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+
+.image-grid-row img{
+    width: 100%;
+}
+
+.features{
+    color: #fff;
+}
+
+.features-title{
+    color: #02ffff;
+}
+
+
+
+.footer{
+    background-image: url("../images/footer-bg.png");
+    background-position: top;
+    min-height: 80px;
+    margin-top: -10px;
+}
+
+.social-media-icon{
+    margin-right: 0px;
+    padding: 0;
+}
