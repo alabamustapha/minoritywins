@@ -232,6 +232,8 @@
 
 .play-btn-2{
     position: absolute;
+    top: 33%;
+
     z-index: 50;
     text-align: center;   
 }
