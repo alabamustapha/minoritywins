@@ -214,3 +214,27 @@
     margin-right: 0px;
     padding: 0;
 }
+
+
+
+/* Video section*/
+.section-two{
+    max-height: 1260px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#bg-video {
+  width: 100%;
+  height: 100%;
+}
+
+.play-btn-2{
+    position: absolute;
+    z-index: 50;
+    text-align: center;   
+}
+
+
+/* Video end*/
