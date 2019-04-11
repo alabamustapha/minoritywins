@@ -42,10 +42,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-height: 110vh;
     }
     
-    .play-btn img{
+    /* .play-btn img{
         width: 342px;
         height: 204px;
-    }
+    } */
 
 
 }
@@ -57,9 +57,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-height: 430px;
     }
     
-    .play-btn img{
+    /* .play-btn img{
         width: 300px;
-    }
+    } */
 
 }
 
@@ -70,9 +70,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-height: 230px;
     }
     
-    .play-btn img{
+    /* .play-btn img{
         width: 200px;
-    }
+    } */
     
     .play-btn-2 > img{
         max-width: 200px;
@@ -88,7 +88,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .play-btn {
-
     cursor: pointer;
     position: absolute;
     top: 60%;
@@ -102,9 +101,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-height: 230px;
     }
     
-    .play-btn img{
+    /* .play-btn img{
         width: 200px;
-    }
+    } */
 }
 
 
@@ -126,10 +125,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .play-btn,
 .play-btn-2{
-    position: absolute;
+    /* position: absolute;
     z-index: 10;
     max-width: 300px;
-    max-height: 300px;
+    max-height: 300px; */
 }
 
 
