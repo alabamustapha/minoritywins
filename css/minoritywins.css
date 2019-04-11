@@ -24,3 +24,12 @@
     width: 100%;
     -webkit-overflow-scrolling: touch;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .play{
+        background-image: url("../images/bg-one-small.jpg");
+        min-height: 430px;
+    }
+    
+}
