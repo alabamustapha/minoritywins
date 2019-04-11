@@ -33,6 +33,7 @@
 .play-btn-img{
     display: inline-block;
     margin-top: 30%;
+    width: 30%;
 }
 
 @media only screen and (max-width: 768px) {
