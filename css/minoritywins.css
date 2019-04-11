@@ -23,16 +23,14 @@
     position: relative;
     width: 100%;
     -webkit-overflow-scrolling: touch;
+    position: relative;
 }
 
 .play-btn{
     width: 100%;
     text-align: center;
-}
-
-.play-btn-img{
-    display: inline-block;
-    margin-top: 30%;
+    position: absolute;
+    top: 64%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -40,15 +38,6 @@
     .play{
         background-image: url("../images/bg-one-small.jpg");
         min-height: 430px;
-    }
-    
-}
-
-@media only screen and (max-width: 986px) {
-    
-    .play-btn-img{
-        margin-top: 33%;
-        max-width: 300px;
     }
     
 }
