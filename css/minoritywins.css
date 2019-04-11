@@ -223,6 +223,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 
 #bg-video {
@@ -232,8 +234,10 @@
 
 .play-btn-2{
     position: absolute;
-    top: 33%;
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 50;
     text-align: center;   
 }
