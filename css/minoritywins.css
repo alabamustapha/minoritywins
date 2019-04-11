@@ -43,3 +43,12 @@
     }
     
 }
+
+@media only screen and (max-width: 986px) {
+    
+    .play-btn-img{
+        margin-top: 33%;
+        max-width: 300px;
+    }
+    
+}
