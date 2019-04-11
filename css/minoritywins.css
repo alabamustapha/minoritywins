@@ -11,3 +11,16 @@
 #main-nav .nav-link{
     color: #fff;
 }
+
+
+
+/* play and logo */
+.play{
+    background-image: url("../images/bg-one.jpg");
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
