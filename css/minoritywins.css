@@ -25,6 +25,16 @@
     -webkit-overflow-scrolling: touch;
 }
 
+.play-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.play-btn-img{
+    display: inline-block;
+    margin-top: 30%;
+}
+
 @media only screen and (max-width: 768px) {
     
     .play{
