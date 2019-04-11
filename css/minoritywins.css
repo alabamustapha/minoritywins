@@ -17,9 +17,22 @@
 .play{
     background-image: url("../images/bg-one.jpg");
     min-height: 100vh;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     position: relative;
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .play{
+        background-image: url("../images/bg-one-small.jpg");
+        min-height: 430px;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
