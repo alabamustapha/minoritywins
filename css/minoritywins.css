@@ -21,6 +21,7 @@
     background-size: cover;
     position: relative;
     width: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 
@@ -130,7 +131,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     position: absolute;
     z-index: 50;
     text-align: center;
-  
+    
 }
 
 
