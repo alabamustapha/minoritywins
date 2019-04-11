@@ -131,7 +131,7 @@
 
 
 /* Parallax Scrolling effect */
-.parallax-scroll {
+/* .parallax-scroll {
     background-image: url("../images/bg-one.jpg");
   }
   .parallax-scroll,
@@ -142,7 +142,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
   
   .fixed-menu{
       z-index: 40;
