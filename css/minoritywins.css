@@ -23,6 +23,7 @@
     position: relative;
     width: 100%;
     -webkit-overflow-scrolling: touch;
+    text-align: center;
 }
 
 .logo{
