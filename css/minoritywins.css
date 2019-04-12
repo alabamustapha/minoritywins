@@ -16,7 +16,7 @@
 
 /* play and logo */
 .play{
-    background-image: url("../images/bg-one.jpg");
+    background-image: url("../images/play-bg.jpg");
     min-height: 100vh;
     background-position: top;
     background-size: cover;
@@ -25,8 +25,17 @@
     -webkit-overflow-scrolling: touch;
 }
 
+.logo{
+    width: 100%;
+}
+
+.logo img{
+    min-width: 50%;
+}
+
 .play-btn{
     width: 100%;
+    /* max-height: 80vh !important; */
     text-align: center;
 }
 
@@ -36,14 +45,6 @@
     width: 30%;
 }
 
-@media only screen and (max-width: 768px) {
-    
-    .play{
-        background-image: url("../images/bg-one-small.jpg");
-        min-height: 430px;
-    }
-    
-}
 
 @media only screen and (max-width: 986px) {
     
@@ -53,6 +54,37 @@
     }
     
 }
+
+@media only screen and (max-width: 850px) {
+    
+    .play{
+        background-image: url("../images/bg-one-small.jpg");
+        min-height: 430px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    
+    .play{
+        background-image: url("../images/bg-one-smallest.jpg");
+        min-height: 230px;
+    }
+
+    .play-btn-img{
+        margin-top: 40%;
+    }
+
+}
+
+@media only screen and (max-height: 330px) {
+
+    .play-btn-img{
+        margin-top: 40%;
+    }
+
+}
+
 
 
 
