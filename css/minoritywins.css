@@ -27,6 +27,9 @@
 
 .logo{
     width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .logo img{
@@ -41,15 +44,14 @@
 
 .play-btn-img{
     display: inline-block;
-    margin-top: 30%;
-    width: 30%;
+    /* width: 30%; */
 }
 
 
 @media only screen and (max-width: 986px) {
     
     .play-btn-img{
-        margin-top: 33%;
+        /* margin-top: 33%; */
         max-width: 250px;
     }
     
@@ -72,7 +74,7 @@
     }
 
     .play-btn-img{
-        margin-top: 40%;
+        /* margin-top: 40%; */
     }
 
 }
@@ -80,7 +82,7 @@
 @media only screen and (max-height: 330px) {
 
     .play-btn-img{
-        margin-top: 40%;
+        /* margin-top: 40%; */
     }
 
 }
