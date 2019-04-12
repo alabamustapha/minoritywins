@@ -18,7 +18,7 @@
 .play{
     background-image: url("../images/play-bg.jpg");
     min-height: 100vh;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -58,7 +58,7 @@
 @media only screen and (max-width: 850px) {
     
     .play{
-        background-image: url("../images/bg-one-small.jpg");
+        background-image: url("../images/play-bg-md.jpg");
         min-height: 430px;
     }
     
@@ -71,11 +71,11 @@
 }
 
 @media only screen and (max-width: 450px) {
-    /*
+    
     .play{
-        background-image: url("../images/bg-one-smallest.jpg");
+        background-image: url("../images/play-bg-sm.jpg");
         min-height: 230px;
-    }*/
+    }
 
     .play-img {
         max-width: 310px;
