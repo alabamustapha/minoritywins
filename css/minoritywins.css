@@ -331,11 +331,24 @@
     }
 
     .side-menu li.active a{
-        margin-left: 3rem;
+        margin-left: 2rem;
+    }
+
+    .side-nav li.active::before{
+        content: url("../images/navigation-arrow-small.png");
+        display: inline-block;
+        position: absolute;
+        left: -18px;
+        margin-top: -44px;
+        color: red;
     }
     
 }
 
 #advantages .col-md-6{
     max-width: 40%;
+}
+
+.side-menu .nav-link{
+    padding-left: .2rem;
 }
