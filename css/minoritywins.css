@@ -37,18 +37,20 @@
 }
 
 .logo img{
-    min-width: 50%;
+    max-width: 720px;
+    width: 100%;
 }
 
-/*.play-btn{
+.play-btn{
+    margin: 0;
     width: 100%;
-    /* max-height: 80vh !important; *
     text-align: center;
-}*/
+}
 
 .play-btn-img{
     display: inline-block;
     /* width: 30%; */
+    max-width: 285px;
 }
 
 @media only screen and (max-width: 986px) {
