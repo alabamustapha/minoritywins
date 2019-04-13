@@ -335,3 +335,7 @@
     }
     
 }
+
+#advantages .col-md-6{
+    max-width: 40%;
+}
