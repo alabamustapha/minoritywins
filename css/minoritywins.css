@@ -13,6 +13,9 @@
 }
 
 
+.container{
+    max-width: 1000px;
+}
 
 /* play and logo */
 .play{
@@ -47,7 +50,6 @@
     display: inline-block;
     /* width: 30%; */
 }
-
 
 @media only screen and (max-width: 986px) {
     .play-img {
@@ -317,6 +319,19 @@
 /* Video end*/
 
 
-.container{
-    max-width: 1000px;
+
+
+@media only screen and (max-width: 1180px) {
+    .container{
+        max-width: 710px;
+    }   
+    
+    .side-menu a{
+        font-size: .8rem;
+    }
+
+    .side-menu li.active a{
+        margin-left: 3rem;
+    }
+    
 }
