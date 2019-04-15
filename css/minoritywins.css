@@ -130,7 +130,7 @@
   .fixed-menu{
       z-index: 40;
       position: fixed;
-      margin-left: 20px;
+      margin-left: 5px;
       margin-top: 20px;
   }
   .fixed-menu-btn{
@@ -278,7 +278,7 @@
     }
 
     .intro{
-        max-width: 250px;
+        max-width: 230px;
     }
   }
 
