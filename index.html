@@ -104,10 +104,10 @@
           <div class="navigation_line"></div> 
           <div class="side-menu  d-flex">
               <ul class="nav side-nav flex-column align-self-center">
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#play">play</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="#video">video</a>
                 </li>
                 <li class="nav-item">
@@ -235,7 +235,10 @@
               var viewportTop = $(window).scrollTop();
               var viewportBottom = viewportTop + $(window).height();
 
-              return elementBottom > viewportTop && elementTop < viewportBottom;
+              var offset = 0.7 * $(window).height();
+
+
+              return elementBottom > viewportTop && elementTop + offset < viewportBottom;
             };
 
             $(window).on('resize scroll', function() {
@@ -244,6 +247,14 @@
                
                 $(".group").each(function(){
                     if($(this).isInViewport()){
+                      
+                      var elementTop = $(this).offset().top;
+                      var elementBottom = elementTop + $(this).outerHeight();
+                      
+                      var viewportTop = $(window).scrollTop();
+                      var viewportBottom = viewportTop + $(window).height();
+
+
                         $(".side-nav .nav-item").removeClass('active');
                         $("a[href='#" + $(this).attr('id') + "']").parent("li").addClass("active");
                         
