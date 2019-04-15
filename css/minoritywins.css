@@ -368,6 +368,7 @@
     
 } 
 
+
 @media only screen and (max-width: 840px){
     
     .navigation{
@@ -387,9 +388,18 @@
 
 @media only screen and (max-width: 797px) and (min-width: 768px){
     
-
     #advantages{
         padding-left: 4rem;
     }
     
 }
+
+@media only screen and (max-width: 767px){
+    
+    #advantages{
+        padding-left: 0rem;
+    }
+    
+}
+
+
